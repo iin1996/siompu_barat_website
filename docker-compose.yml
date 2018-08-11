@@ -1,0 +1,35 @@
+version: '2'
+services:
+  web:
+    image: amanu/php7-apache
+    volumes:
+     - ./web:/var/www/html/
+    links:
+       - db:skripsi
+    ports:
+     - "80:80"
+  db:
+    build: ./database/Dockerfile
+    container_name: skripsi
+    ports:
+     - "3306:3306"
+    volumes:
+     - db_data:/var/lib/mysql
+    restart: always
+    environment:
+     MYSQL_ROOT_PASSWORD: siompu123
+     MYSQL_DATABASE: skripsi
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    links:
+      - db:skripsi
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    ports:
+      - "8080:80"
+
+volumes:
+  db_data:

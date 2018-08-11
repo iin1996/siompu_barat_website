@@ -1,0 +1,105 @@
+
+
+@media(min-width:1200px) {
+	.onlidesktop{max-height: 327px;margin-bottom: 20px;overflow: hidden;float: right;}
+	.homebox-desk{width: 65%;float:  left;margin-top: 20px;padding-left: 15px;}
+	.homebox-img{width: 33%;margin-top: 20px;float: right;padding-right: 15px;}
+	.bgwhite{background: #ffffffcf;}
+	.bgwhite2{background: white;float: left;}
+	.kode_ui_element{}
+	.kode_program_bg{padding: 40px 0px 0px 0px;float:left;width:100%;background:  white;}
+	.kode_program_list{float:left;width:100%;position:relative;overflow:hidden;/* height: 347px; */background: white;}
+	.kode_program_list figure img{width:100%;/* height:auto; */min-height: 175px;/* height: 250px; */font-family: 'Rajdhani', sans-serif;}
+	.col-sm-12 .kode_program_list figure img{width:100%;/* height:auto; */min-height: 175px;/* height: 250px; */font-family: 'Rajdhani', sans-serif;}
+	.col-sm-12 .kode_program_list{float:left;width:100%;position:relative;overflow:hidden;/* height: 347px; */background: white;}
+	.kode_news_deskrip{padding: 15px 15px 15px 0px;}
+	.kode_press_new{padding: 15px;background: white;}
+	.judullainnya{width: 100%;height: 23px;overflow:  hidden;float: left;}
+	.boxcerita{background: white;margin: 15px;}
+	.kode_press_news figure{height: 200px;}
+}
+@media(min-width:992px) and (max-width:1199px){
+	.onlidesktop{max-height: 327px;margin-bottom: 20px;overflow: hidden;float: right;}
+	.homebox-desk{width: 65%;float:  left;margin-top: 20px;padding-left: 15px;}
+	.homebox-img{width: 33%;margin-top: 20px;padding-right: 15px;float: right;}
+	.bgwhite{background: #ffffffcf;}
+	.bgwhite2{background: white;float: left;}
+	.kode_ui_element{}
+	.kode_program_bg{padding: 20px 0px 0px;float:left;width:100%;background:  white;}
+	.kode_program_list figure img{width:100%;/* height:auto; */	min-height: 175px;height: 250px;font-family: 'Rajdhani', sans-serif;}
+	.kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 250px;background: white;}
+	.col-sm-12 .kode_program_list figure img{width:100%;/* height:auto; */	min-height: 175px;height: 250px;font-family: 'Rajdhani', sans-serif;}
+	.col-sm-12 .kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 250px;background: white;}
+	.kode_news_deskrip{padding: 15px;}
+	.kode_press_new{padding: 15px;background: white;}
+	.judullainnya{width: 100%;height: 23px;overflow:  hidden;float: left;}
+	.boxcerita{background: white;margin: 15px;}
+	.kode_press_news figure{height: 150px;}
+}
+@media(min-width:768px) and (max-width:991px){
+	.onlidesktop{max-height: 327px;margin-bottom: 20px;overflow: hidden;float: right;}
+	.homebox-desk{width: 100%;float:  left;/* margin-top: 20px; */padding: 15px;background: white;}
+	.homebox-img{width: 100%;margin-top: 20px;float: right;margin-bottom: 20px;}
+	.bgwhite{background: #ffffffcf;}
+	.bgwhite2{/* background: white; */float: left;}
+	.kode_ui_element{float: right;width: 83%;padding: 0px 15px 15px 15px;}
+	.kode_program_bg{padding: 20px 0px 0px;float:left;width: 100%;background:  white;}
+	.kode_program_list figure img{width:100%;/* height:auto; */	min-height: 175px;height: 250px;font-family: 'Rajdhani', sans-serif;}
+	.kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 250px;background: white;}
+	.col-sm-12 .kode_program_list figure img{width:100%;/* height:auto; */min-height: 175px;height: 400px;font-family: 'Rajdhani', sans-serif;}
+	.col-sm-12 .kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 400px;background: white;}
+	.kode_news_deskrip{padding: 15px;}
+	.kode_press_new{padding: 15px;background: white;}
+	.judullainnya{width: 100%;float: left;}
+	.boxcerita{background: white;width: 100%;float: left;padding: 0px 15px;margin-bottom: 20px;}
+	.kode_link_3{width: 100%;}
+	.kode_press_news figure{height: 130px;margin-bottom: 10px;}
+}
+@media(min-width:480px) and (max-width:767px){
+	.bookbox{overflow: hidden;margin-bottom: 20px;padding-bottom: 10px;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(78, 78, 78, 0.35);}
+	.homebox-desk{width: 100%;float:  left;/* margin-top: 20px; */padding: 15px;background: white;}
+	.homebox-img{float: right;width: 100%;margin-top: 20px;}
+	.kode_ui_element{float: right;width: 100%;padding: 0px 15px 15px 15px;}
+	.kode_program_bg{float:left;width: 100%;background:  white;padding-top: 20px;margin-top: 20px;}
+	.kode_program_list figure img{width:100%;height:auto;min-height: 250px;/* height: 250px; */height: 400px;font-family: 'Rajdhani', sans-serif;}
+	.kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 400px;background: white;}
+	.col-sm-12 .kode_program_list figure img{width:100%;/* height:auto; */min-height: 175px;height: 400px;font-family: 'Rajdhani', sans-serif;}
+	.col-sm-12 .kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 400px;background: white;}
+	.kode_news_deskrip{padding: 15px;}
+	.kode_press_new{padding: 15px;background: white;}
+	.judullainnya{width: 100%;float: left;}
+	.boxcerita{background: white;width:  100%;float:  left;padding: 0px 15px;margin-bottom: 20px;}
+	.kode_link_3{width: 100%;}
+}
+@media(max-width:479px){
+	.homebox-desk{width: 100%;float:  left;/* margin-top: 20px; */padding: 15px;background: white;}
+	.homebox-img{width: 100%;margin-top: 20px;float: right;margin-bottom: 20px;}
+	.kode_ui_element{float: right;width: 100%;padding: 0px 15px 15px 15px;}
+	.kode_program_bg{float:left;width: 100%;background:  white;padding-top: 10px;}
+	.kode_program_list figure img{width:100%;height:auto;min-height:  250px;font-family: 'Rajdhani', sans-serif;}
+	.kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 300px;background: white;}
+	.col-sm-12 .kode_program_list figure img{width:100%;/* height:auto; */min-height: 175px;height: 250px;font-family: 'Rajdhani', sans-serif;}
+	.col-sm-12 .kode_program_list{float:left;width:100%;position:relative;overflow:hidden;height: 250px;background: white;}
+	.kode_news_deskrip{padding: 15px;}
+	.kode_press_new{padding: 15px;background: white;}
+	.judullainnya{width: 100%;float: left;}
+	.boxcerita{background: white;width: 100%;float: left;padding: 0px 15px;margin-bottom: 20px;}
+	.kode_link_3{width: 100%;}
+}
+
+.kode_program_list{float:left;width:100%;position:relative;overflow:hidden;/* height: 347px; */background: white;}
+.nomargin{margin: 0px;}
+.nopadding{padding: 0px;}
+
+#zoom-btn {
+    position: absolute;
+    right: 15px;
+    bottom: 9px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    z-index: 10000;
+    background-color: #f9f9fa;
+}

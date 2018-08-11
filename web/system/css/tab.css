@@ -1,0 +1,19 @@
+// Example tabbable tabs
+.bd-example-tabs .nav-tabs {
+  margin-bottom: 1rem;
+}
+
+// Tooltips
+.bd-example-tooltips {
+  text-align: center;
+}
+.bd-example-tooltips > .btn {
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
+.bs-tooltip-top-docs,
+.bs-tooltip-bottom-docs {
+  .arrow {
+    left: 50%;
+  }
+}

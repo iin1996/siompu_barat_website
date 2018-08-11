@@ -1,0 +1,107 @@
+RewriteEngine on
+
+RewriteRule ^login$ login.php [L]
+
+RewriteRule ^home$ media.php?module=home [L]
+
+RewriteRule ^page$ media.php?module=page&act=list [L]
+RewriteRule ^page-tambah$ media.php?module=page&act=add&id=1 [L]
+RewriteRule ^page-edit-([0-9]+)$ media.php?module=page&act=edit&id=$1 [L]
+
+RewriteRule ^sosial$ media.php?module=sosial&act=list [L]
+RewriteRule ^sosial-tambah$ media.php?module=sosial&act=add&id=1 [L]
+RewriteRule ^sosial-edit-([0-9]+)$ media.php?module=sosial&act=edit&id=$1 [L]
+
+
+RewriteRule ^tour-seo$ media.php?module=tour&act=seo&id=5 [L]
+
+RewriteRule ^contact$ media.php?module=contact&act=list [L]
+RewriteRule ^contact-edit-([0-9]+)$ media.php?module=contact&act=edit&id=$1 [L]
+RewriteRule ^contact-seo$ media.php?module=contact&act=seo&id=4 [L]
+
+
+RewriteRule ^inspirasi$ media.php?module=inspirasi&act=list [L]
+RewriteRule ^inspirasi-tambah$ media.php?module=inspirasi&act=add [L]
+RewriteRule ^inspirasi-edit-([0-9]+)$ media.php?module=inspirasi&act=edit&id=$1 [L]
+
+RewriteRule ^mutasi$ media.php?module=mutasi&act=list [L]
+RewriteRule ^mutasi-tambah$ media.php?module=mutasi&act=add [L]
+RewriteRule ^mutasi-nik$ media.php?module=mutasi&act=nik [L]
+RewriteRule ^mutasi-edit-([0-9]+)$ media.php?module=mutasi&act=edit&id=$1 [L]
+
+RewriteRule ^kematian$ media.php?module=kematian&act=list [L]
+RewriteRule ^kematian-tambah$ media.php?module=kematian&act=add [L]
+RewriteRule ^kematian-nik$ media.php?module=kematian&act=nik [L]
+RewriteRule ^kematian-edit-([0-9]+)$ media.php?module=kematian&act=edit&id=$1 [L]
+
+RewriteRule ^lahir$ media.php?module=lahir&act=list [L]
+RewriteRule ^lahir-tambah$ media.php?module=lahir&act=add [L]
+RewriteRule ^lahir-edit-([0-9]+)$ media.php?module=lahir&act=edit&id=$1 [L]
+
+RewriteRule ^laporan-penduduk$ media.php?module=laporan-penduduk&act=list [L]
+RewriteRule ^laporan-penduduk-tambah$ media.php?module=laporan-penduduk&act=add [L]
+RewriteRule ^laporan-penduduk-edit-([0-9]+)$ media.php?module=laporan-penduduk&act=edit&id=$1 [L]
+RewriteRule ^laporan-mutasi$ media.php?module=laporan-mutasi&act=list [L]
+
+
+RewriteRule ^peraturan-desa$ media.php?module=peraturan-desa&act=list [L]
+RewriteRule ^peraturan-desa-tambah$ media.php?module=peraturan-desa&act=add [L]
+RewriteRule ^peraturan-desa-edit-([0-9]+)$ media.php?module=peraturan-desa&act=edit&id=$1 [L]
+RewriteRule ^peraturan-desa-dusun-([0-9]+)$ media.php?module=peraturan-desa&act=dusun&id=$1 [L]
+RewriteRule ^peraturan-desa-tambah-dusun-([0-9]+)$ media.php?module=peraturan-desa&act=tambahdusun&id=$1 [L]
+RewriteRule ^peraturan-desa-edit-dusun-([0-9]+)$ media.php?module=peraturan-desa&act=editdusun&id=$1 [L]
+RewriteRule ^peraturan-desa-penduduk-([0-9]+)$ media.php?module=peraturan-desa&act=penduduk&id=$1 [L]
+RewriteRule ^peraturan-desa-tambah-penduduk-([0-9]+)$ media.php?module=peraturan-desa&act=tambahpenduduk&id=$1 [L]
+RewriteRule ^peraturan-desa-edit-penduduk-([0-9]+)$ media.php?module=peraturan-desa&act=editpenduduk&id=$1 [L]
+
+
+RewriteRule ^desa$ media.php?module=desa&act=list [L]
+RewriteRule ^desa-tambah$ media.php?module=desa&act=add [L]
+RewriteRule ^desa-edit-([0-9]+)$ media.php?module=desa&act=edit&id=$1 [L]
+
+RewriteRule ^galeri-list$ media.php?module=galeri&act=list [L]
+RewriteRule ^galeri-tambah$ media.php?module=galeri&act=add [L]
+RewriteRule ^galeri-edit-([0-9]+)$ media.php?module=galeri&act=edit&id=$1 [L]
+
+RewriteRule ^potensi-desa$ media.php?module=potensi-desa&act=list [L]
+RewriteRule ^potensi-desa-tambah$ media.php?module=potensi-desa&act=add [L]
+RewriteRule ^potensi-desa-edit-([0-9]+)$ media.php?module=potensi-desa&act=edit&id=$1 [L]
+
+RewriteRule ^wisata$ media.php?module=wisata&act=list [L]
+RewriteRule ^wisata-tambah$ media.php?module=wisata&act=add [L]
+RewriteRule ^wisata-edit-([0-9]+)$ media.php?module=wisata&act=edit&id=$1 [L]
+
+
+RewriteRule ^video$ media.php?module=video&act=list [L]
+RewriteRule ^video-tambah$ media.php?module=video&act=add [L]
+RewriteRule ^video-edit-([0-9]+)$ media.php?module=video&act=edit&id=$1 [L]
+
+RewriteRule ^materi$ media.php?module=materi&act=list [L]
+RewriteRule ^materi-tambah$ media.php?module=materi&act=add [L]
+RewriteRule ^materi-edit-([0-9]+)$ media.php?module=materi&act=edit&id=$1 [L]
+
+RewriteRule ^slider$ media.php?module=slider&act=list [L]
+RewriteRule ^slider-tambah$ media.php?module=slider&act=add [L]
+RewriteRule ^slider-edit-([0-9]+)$ media.php?module=slider&act=edit&id=$1 [L]
+
+
+RewriteRule ^kepdes$ media.php?module=kepdes&act=list [L]
+RewriteRule ^kepdes-tambah$ media.php?module=kepdes&act=add [L]
+RewriteRule ^kepdes-edit-([0-9]+)$ media.php?module=kepdes&act=edit&id=$1 [L]
+
+
+RewriteRule ^profil$ media.php?module=profil&act=edit [L]
+
+
+RewriteRule ^modul$ media.php?module=modul&act=list [L]
+RewriteRule ^modul-edit-([0-9]+)$ media.php?module=modul&act=edit&id=$1 [L]
+
+
+RewriteRule ^admin$ media.php?module=admin&act=edit&id=1 [L]
+
+RewriteRule ^adminz$ ckeditor/plugins/imageuploader/responsive.php [L]
+
+
+RewriteRule ^error$ media.php?module=error [L]
+
+ErrorDocument 404 /404.php

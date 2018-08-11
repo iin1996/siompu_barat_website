@@ -1,0 +1,62 @@
+RewriteEngine on
+
+RewriteRule ^home$ template.php?module=home&id=0 [L]
+
+RewriteRule ^sejarah$ template.php?module=sejarah [L]
+
+RewriteRule ^kependudukan$ template.php?module=kependudukan [L]
+
+RewriteRule ^dusun-(.*)-([0-9]+)$ template.php?module=dusun&id=$2 [L]
+
+RewriteRule ^detail-dusun-(.*)-([0-9]+)$ template.php?module=detail-dusun&id=$2 [L]
+
+RewriteRule ^pakaian-(.*)-([0-9]+)$ template.php?module=pakaian&id=$2 [L]
+
+RewriteRule ^tenunan-(.*)-([0-9]+)$ template.php?module=tenunan&id=$2 [L]
+
+RewriteRule ^adat-istiadat-(.*)-([0-9]+)$ template.php?module=adat-istiadat&id=$2 [L]
+
+RewriteRule ^makanan-khas-(.*)-([0-9]+)$ template.php?module=makanan-khas&id=$2 [L]
+
+RewriteRule ^lihat-hubungi-kami$ template.php?module=lihat-hubungi-kami [L]
+
+RewriteRule ^detail-pakaian-(.*)-([0-9]+)$ template.php?module=detpakaian&id=$2 [L]
+
+RewriteRule ^detail-tenunan-(.*)-([0-9]+)$ template.php?module=dettenunan&id=$2 [L]
+
+RewriteRule ^detail-istiadat-(.*)-([0-9]+)$ template.php?module=detistiadat&id=$2 [L]
+
+RewriteRule ^detail-makanan-khas-(.*)-([0-9]+)$ template.php?module=detmakanankhas&id=$2 [L]
+
+RewriteRule ^pemandian$ template.php?module=pemandian [L]
+
+RewriteRule ^detail-pemandian-(.*)-([0-9]+)$ template.php?module=detpemandian&id=$2 [L]
+
+RewriteRule ^pantai$ template.php?module=pantai [L]
+
+RewriteRule ^detail-pantai-(.*)-([0-9]+)$ template.php?module=detpantai&id=$2 [L]
+
+RewriteRule ^detail-home$ template.php?module=detail-home [L]
+
+RewriteRule ^galeri-foto$ template.php?module=galeri-foto [L]
+
+RewriteRule ^galeri-video$ template.php?module=galeri-video [L]
+
+RewriteRule ^detail-video-(.*)-([0-9]+)$ template.php?module=video&id=$2 [L]
+
+RewriteRule ^detail-berita-(.*)-([0-9]+)$ template.php?module=detpage&id=$2 [L]
+
+RewriteRule ^page-([0-9]+)$ template.php?module=page&id=$1 [L]
+
+RewriteRule ^detail-profil-desa-(.*)-([0-9]+)$ template.php?module=profil-desa&id=$2 [L]
+
+#Kontak
+RewriteRule ^kontak$ template.php?module=kontak [L]
+
+#aksi kontak
+RewriteRule ^send-message$ inc/aksi/aksi_kontak.php [L]
+
+#Searching
+RewriteRule ^searching$ template.php?module=searching [L]
+
+ErrorDocument 404 /404.php
